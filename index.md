@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Página de soporte para el curso de Neuroimágenes de SLAN 2019 
+# Página de soporte para el curso de Neuroimágenes de SLAN 2019
 **Pablo A. Reyes** reyes.p @ javeriana.edu.co (sin espacios)
 
 
@@ -11,29 +11,29 @@ La siguiente página ofrece las herramientas y ejemplos básicos para poder real
 
 # Bases de Datos y OpenScience
 
-Existen diversas bases de datos de imágenes de MRI que son accesibles de manera libre. 
+Existen diversas bases de datos de imágenes de MRI que son accesibles de manera libre.
 
 **Bases de imagenes**
-1. <a href="https://openneuro.org">Open Neuro</a> : Base de datos multimodales (MRI, EEG, MEG), permite tanto bajar como subir estudio. Actualmente cuenta con 287 bases de datos. 
+1. <a href="https://openneuro.org">Open Neuro</a> : Base de datos multimodales (MRI, EEG, MEG), permite tanto bajar como subir estudio. Actualmente cuenta con 287 bases de datos.
 2. <a href="https://ida.loni.usc.edu/login.jsp">Image & Data Archive IDA</a>: ABIDE (Autismo), ABVIB (Envejecimiento), ADNI (alzheimer), ADNIDOD (Veteranos), AIBL, BIOFIND, ICBM (consorcio de mapeo cerebral), GSP (Genómica), HCP (Human connectome project), PPMI (Parkinson), NIFD (Demencia Frontotemporal).
 3. <a href="https://www.humanconnectome.org">Conectoma Humano</a>: Iniciativa que comenzó con un estudio masivo de mapeo cerebrla en sujetos sanos y se ha extendido a 3 escenarios importantes:
 - HCP adultos jóvenes = 1200
 - HCP curso vital
- - Bebes
- - Infancia
- - Adultos
- - Prenatal y neonatal
+  - Bebes
+  - Infancia
+  - Adultos
+  - Prenatal y neonatal
 - Estudios clínicos
- - Amish
- - Epilepsia
- - Ansiedad 
- - Alzheimer
- - Ceguera y baja visión 
-4. <a href="https://www.humanconnectome.org">OASIS</a>
+  - Amish
+  - Epilepsia
+  - Ansiedad
+  - Alzheimer
+  - Ceguera y baja visión
+4. <a href="http://www.oasis-brains.org">OASIS</a>: Base de datos de MRI sobre sujetos normales y pacientes con enfermedad de Alzheimer. Principalmente imágenes de tipo estructural.
 
 
 **Meta análisis y revisiones**
-1. <a href="https://neurovault.org">NeuroVault</a> : Base de datos de MRI de resultados de análisis (mapas de conectividad). 
+1. <a href="https://neurovault.org">NeuroVault</a> : Base de datos de MRI de resultados de análisis (mapas de conectividad).
 2. <a href="https://neurosynth.org">Neurosynth</a> : Plataforma para realización de metanálisis de estudios de fMRI, la base d ela información proviene principalmente de las coordenadas de activación reportadas por los artículos publicados.
 
 

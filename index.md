@@ -1,8 +1,7 @@
 ---
 layout: default
 ---
-{% Text can be **bold**, _italic_, or ~~strikethrough~~.
- %}
+Text can be **bold**, _italic_, or ~~strikethrough~~
 
 # Página de soporte para el curso de Neuroimágenes de SLAN 2019 
 **Pablo A. Reyes** reyes.p @ javeriana.edu.co (sin espacios)

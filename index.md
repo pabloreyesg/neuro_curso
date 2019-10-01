@@ -16,8 +16,8 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 Existen diversas bases de datos de imágenes de MRI que son accesibles de manera libre. 
 
-1. [OpenNeuro] (https://openneuro.org)
-2. [Nerovault] (https://neurovault.org)
+1. [OpenNeuro] ([https://openneuro.org)
+2. [Nerovault] ([https://neurovault.org)
 
 # Visualizadores
 

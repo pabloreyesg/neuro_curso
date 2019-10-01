@@ -1,8 +1,11 @@
 ---
 layout: default
 ---
+{% Text can be **bold**, _italic_, or ~~strikethrough~~.
+ %}
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# Página de soporte para el curso de Neuroimágenes de SLAN 2019 
+**Pablo A. Reyes** reyes.p @ javeriana.edu.co (sin espacios)
 
 [Link to another page](./another-page.html).
 
@@ -10,11 +13,14 @@ There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-# Header 1
+# Bases de Datos y OpenScience
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+Existen diversas bases de datos de imágenes de MRI que son accesibles de manera libre. 
 
-## Header 2
+1. [OpenNeuro] (https://openneuro.org)
+2. [Nerovault] (https://neurovault.org)
+
+# Visualizadores
 
 > This is a blockquote following a header.
 >

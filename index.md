@@ -1,25 +1,30 @@
 ---
 layout: default
 ---
-Text can be **bold**, _italic_, or ~~strikethrough~~
 
 # Página de soporte para el curso de Neuroimágenes de SLAN 2019 
 **Pablo A. Reyes** reyes.p @ javeriana.edu.co (sin espacios)
 
-[Link to another page](./another-page.html).
 
-There should be whitespace between paragraphs.
+La siguiente página ofrece las herramientas y ejemplos básicos para poder realizar una introducción a la visualización, análisis y procesamiento básico de imágenes cerebrales obtenidas por MRI
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
 # Bases de Datos y OpenScience
 
 Existen diversas bases de datos de imágenes de MRI que son accesibles de manera libre. 
 
-1. [OpenNeuro] ([https://openneuro.org)
-2. [Nerovault] ([https://neurovault.org)
+[OpenNeuro] ([https://openneuro.org)
+[Nerovault] ([https://neurovault.org)
+[ADNI] ()
+[ABIDE] ()
+
 
 # Visualizadores
+_Dicom_
+La imagenes salen del scanner en formato DICOM, este formato si bien es útil para transmitir imágenes convservando detalles del paciente y de la máquina; tienen serios problemas para ser manipulados en ambientes de innvestigación.
+
+
+
 
 > This is a blockquote following a header.
 >

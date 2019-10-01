@@ -40,8 +40,12 @@ Existen diversas bases de datos de imágenes de MRI que son accesibles de manera
 # Visualizadores
 _Dicom_
 
-La imagenes salen del scanner en formato DICOM, este formato si bien es útil para transmitir imágenes convservando detalles del paciente y de la máquina; tienen serios problemas para ser manipulados en ambientes de innvestigación.
+La imagenes salen del scanner en formato DICOM, este formato si bien es útil para transmitir imágenes convservando detalles del paciente y de la máquina; tienen serios problemas para ser manipulados en ambientes de innvestigación. En general para análisis de neuroimágenes se prefiere covertir estos archivos dicom a NIFTI.
 
+1. <a href="https://www.osirix-viewer.com">Osirix</a> : Visor médico con amplias funcionalidades de imágenes DICOM, solo funciona sobre MAC.
+2. <a href="https://nroduit.github.io/en/">Weasis</a> : Visor médico de acceso libre.
+
+_NifTI_
 
 
 

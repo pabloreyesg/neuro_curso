@@ -13,8 +13,8 @@ La siguiente página ofrece las herramientas y ejemplos básicos para poder real
 
 Existen diversas bases de datos de imágenes de MRI que son accesibles de manera libre. 
 
-[OpenNeuro] ([/openneuro.org)
-[Nerovault] ([/neurovault.org)
+[OpenNeuro] (/openneuro.org)
+[Nerovault] (/neurovault.org)
 [ADNI] ()
 [ABIDE] ()
 

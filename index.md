@@ -13,18 +13,19 @@ La siguiente página ofrece las herramientas y ejemplos básicos para poder real
 
 Existen diversas bases de datos de imágenes de MRI que son accesibles de manera libre. 
 
-<a href="https://openneuro.org">Open Neuro</a>
+**Bases de imagenes**
+1. <a href="https://openneuro.org">Open Neuro</a> : Base de datos multimodales (MRI, EEG, MEG), permite tanto bajar como subir estudio. Actualmente cuenta con 287 bases de datos. 
+2. <a href="https://ida.loni.usc.edu/login.jsp">Image & Data Archive IDA</a>: ABIDE (Autismo), ABVIB (Envejecimiento), ADNI (alzheimer), ADNIDOD (Veteranos), AIBL, BIOFIND, ICBM (consorcio de mapeo cerebral), GSP (Genómica), HCP (Human connectome project), PPMI (Parkinson), NIFD (Demencia Frontotemporal).
+3. <a href="https://www.humanconnectome.org">Conectoma Humano</a>: 
 
-Base de datos multimodales (MRI, EEG, MEG), permite tanto bajar como subir estudio. Actualmente cuenta con 287 bases de datos. 
-
-[OpenNeuro] (/openneuro.org)
-[Nerovault] (/neurovault.org)
-[ADNI] ()
-[ABIDE] ()
+**Meta análisis y revisiones**
+1. <a href="https://neurovault.org">NeuroVault</a> : Base de datos de MRI de resultados de análisis (mapas de conectividad). 
+2. <a href="https://neurosynth.org">NeuroVault</a> : Plataforma para realización de metanálisis de estudios de fMRI, la base d ela información proviene principalmente de las coordenadas de activación reportadas por los artículos publicados.
 
 
 # Visualizadores
 _Dicom_
+
 La imagenes salen del scanner en formato DICOM, este formato si bien es útil para transmitir imágenes convservando detalles del paciente y de la máquina; tienen serios problemas para ser manipulados en ambientes de innvestigación.
 
 

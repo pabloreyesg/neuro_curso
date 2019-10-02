@@ -46,6 +46,12 @@ La imagenes salen del scanner en formato DICOM, este formato si bien es útil pa
 2. <a href="https://nroduit.github.io/en/">Weasis</a> : Visor médico de acceso libre.
 
 _NifTI_
+Existen multiples programas que permiten visualizar imagenes NIFTI, algunos de ellos estan para MATLAB, Python o pueden funcionar de manera independiente.
+
+1. <a href="http://www.itksnap.org/pmwiki/pmwiki.php">ITK-Snap</a> : Visualiza imágenes en diferentes formatos, tanto NIFTI como otras un poco mas antiguas como HDR/IMG, y formatos VTK. Una de sus principales ventajas es la posibilidad de sobreponer máscaras, asi como también realizar segmentaciones de regiones de manera manual o semiautomática.
+2. <a href="https://www.mccauslandcenter.sc.edu/mricrogl/">MRIcroGL</a> : Similar al anterior pero enfocado en renderización (3D), también permite sobreponer máscaras y realizar segmentaciones de manera manual.
+3. <a href="http://ric.uthscsa.edu/mango/papaya.html">Papaya</a> :
+
 
 
 
@@ -68,6 +74,12 @@ var fun = function lang(l) {
 GitHubPages::Dependencies.gems.each do |gem, version|
   s.add_dependency(gem, "= #{version}")
 end
+```
+
+```bash
+cp dirrectoy testy
+rm mr
+
 ```
 
 #### Header 4

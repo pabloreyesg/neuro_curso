@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Página de soporte para el curso de Neuroimágenes de SLAN 2019
+# Curso de Neuroimágenes de SLAN 2019
 **Pablo A. Reyes** reyes.p @ javeriana.edu.co (sin espacios)
 
 

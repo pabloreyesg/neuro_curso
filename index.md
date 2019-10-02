@@ -76,7 +76,7 @@ GitHubPages::Dependencies.gems.each do |gem, version|
 end
 ```
 
-```bash
+```sh
 cp dirrectoy testy
 rm mr
 

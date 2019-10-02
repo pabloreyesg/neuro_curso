@@ -56,6 +56,7 @@ Existen multiples programas que permiten visualizar imágenes NIFTI, algunos de 
 
 ## Tutorial: Convertir una imagen DICOM a NIFTI
 
+Uso de DCM2NII tambien conocido como dicom to nii. Para este ejercicio es necesario descargar el archivo del tutorial e instalar en el computador el programa dcm2nii. Existen versiones modernas como dcm2niix que son igualmente buenas y confiables.
 
 {% include youtubePlayer.html id="F_cskbDONr0" %}
 

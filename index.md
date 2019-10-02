@@ -55,10 +55,11 @@ Existen multiples programas que permiten visualizar imágenes NIFTI, algunos de 
 
 ## Tutorial: Convertir una imagen DICOM a NIFTI
 
+<!---
+Include this next line in your .md for Youtube videos, make sure to put your video ID up there!
+
 Example:     youtubeId: F_cskbDONr0
-{% include youtubePlayer.html id=page.youtubeId %}
-
-
+-->
 
 > This is a blockquote following a header.
 >

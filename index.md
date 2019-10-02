@@ -55,11 +55,8 @@ Existen multiples programas que permiten visualizar imágenes NIFTI, algunos de 
 ## Tutorial: Convertir una imagen DICOM a NIFTI
 
 
-{% include youtubePlayer.html id=F_cskbDONr0 %}
+{% include youtubePlayer.html id=page.F_cskbDONr0 %}
 
----
-youtubeId: F_cskbDONr0
----
 
 
 > This is a blockquote following a header.

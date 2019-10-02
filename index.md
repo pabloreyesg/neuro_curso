@@ -1,5 +1,6 @@
 ---
 layout: default
+youtubeId: F_cskbDONr0
 ---
 
 # Curso de Neuroimágenes de SLAN 2019

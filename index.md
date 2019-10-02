@@ -1,6 +1,5 @@
 ---
 layout: default
-youtubeId: F_cskbDONr0
 ---
 
 # Curso de Neuroimágenes de SLAN 2019
@@ -58,7 +57,9 @@ Existen multiples programas que permiten visualizar imágenes NIFTI, algunos de 
 
 {% include youtubePlayer.html id=F_cskbDONr0 %}
 
-
+---
+youtubeId: F_cskbDONr0
+---
 
 
 > This is a blockquote following a header.

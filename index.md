@@ -1,5 +1,6 @@
 ---
 layout: default
+youtubeId: putYourIDHere
 ---
 
 # Curso de Neuroimágenes de SLAN 2019
@@ -54,8 +55,8 @@ Existen multiples programas que permiten visualizar imágenes NIFTI, algunos de 
 
 ## Tutorial: Convertir una imagen DICOM a NIFTI
 
-
-{% include youtubePlayer.html id=page.F_cskbDONr0 %}
+Example:     youtubeId: F_cskbDONr0
+{% include youtubePlayer.html id=page.youtubeId %}
 
 
 

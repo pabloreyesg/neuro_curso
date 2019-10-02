@@ -59,6 +59,8 @@ Existen multiples programas que permiten visualizar imágenes NIFTI, algunos de 
 
 Example:     youtubeId: lDi9uFcD7XI
 
+{% include youtubePlayer.html id=page.youtubeId %}
+
 > This is a blockquote following a header.
 >
 > When something is important enough, you do it even if the odds are not in your favor.

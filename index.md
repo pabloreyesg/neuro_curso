@@ -1,6 +1,7 @@
 ---
 layout: default
 youtubeId: putYourIDHere
+vimeoId: putYourIDHere
 ---
 
 # Curso de Neuroimágenes de SLAN 2019
@@ -55,11 +56,8 @@ Existen multiples programas que permiten visualizar imágenes NIFTI, algunos de 
 
 ## Tutorial: Convertir una imagen DICOM a NIFTI
 
-<!---
-Include this next line in your .md for Youtube videos, make sure to put your video ID up there!
 
-Example:     youtubeId: F_cskbDONr0
--->
+Example:     youtubeId: lDi9uFcD7XI
 
 > This is a blockquote following a header.
 >

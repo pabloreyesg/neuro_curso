@@ -6,7 +6,7 @@ layout: default
 **Pablo A. Reyes** reyes.p @ javeriana.edu.co (sin espacios)
 
 
-La siguiente página ofrece las herramientas y ejemplos básicos para poder realizar una introducción a la visualización, análisis y procesamiento básico de imágenes cerebrales obtenidas por MRI
+La siguiente página ofrece las herramientas y ejemplos básicos para poder realizar una introducción a la visualización, análisis y procesamiento básico de imágenes cerebrales obtenidas por MRI. Cabe anotar que esta es una selección puntual de alguos programas que me han servido en mi experiencia. Existen una basta cantidad de opciones que dependen en gran parte del nivel y experiencia del usuario.
 
 
 # Bases de Datos y OpenScience
@@ -15,8 +15,8 @@ Existen diversas bases de datos de imágenes de MRI que son accesibles de manera
 
 **Bases de imagenes**
 1. <a href="https://openneuro.org">Open Neuro</a> : Base de datos multimodales (MRI, EEG, MEG), permite tanto bajar como subir estudio. Actualmente cuenta con 287 bases de datos.
-2. <a href="https://ida.loni.usc.edu/login.jsp">Image & Data Archive IDA</a>: ABIDE (Autismo), ABVIB (Envejecimiento), ADNI (alzheimer), ADNIDOD (Veteranos), AIBL, BIOFIND, ICBM (consorcio de mapeo cerebral), GSP (Genómica), HCP (Human connectome project), PPMI (Parkinson), NIFD (Demencia Frontotemporal).
-3. <a href="https://www.humanconnectome.org">Conectoma Humano</a>: Iniciativa que comenzó con un estudio masivo de mapeo cerebrla en sujetos sanos y se ha extendido a 3 escenarios importantes:
+2. <a href="https://ida.loni.usc.edu/login.jsp">Image & Data Archive IDA</a>: ABIDE (Autismo), ABVIB (Envejecimiento), ADNI (Alzheimer), ADNIDOD (Veteranos), AIBL, BIOFIND, ICBM (consorcio de mapeo cerebral), GSP (Genómica), HCP (Human connectome project), PPMI (Parkinson), NIFD (Demencia Frontotemporal).
+3. <a href="https://www.humanconnectome.org">Conectoma Humano</a>: Iniciativa que comenzó con un estudio masivo de mapeo cerebral en sujetos sanos y se ha extendido a 3 escenarios importantes:
 - HCP adultos jóvenes = 1200
 - HCP curso vital
   - Bebes
@@ -40,17 +40,21 @@ Existen diversas bases de datos de imágenes de MRI que son accesibles de manera
 # Visualizadores
 _Dicom_
 
-La imagenes salen del scanner en formato DICOM, este formato si bien es útil para transmitir imágenes convservando detalles del paciente y de la máquina; tienen serios problemas para ser manipulados en ambientes de innvestigación. En general para análisis de neuroimágenes se prefiere covertir estos archivos dicom a NIFTI.
+La imágenes salen del scanner en formato DICOM, este formato si bien es útil para transmitir imágenes convservando detalles del paciente y de la máquina; tienen serios problemas para ser manipulados en ambientes de investigación. En general para análisis de neuroimágenes se prefiere covertir estos archivos dicom a NIFTI.
 
 1. <a href="https://www.osirix-viewer.com">Osirix</a> : Visor médico con amplias funcionalidades de imágenes DICOM, solo funciona sobre MAC.
 2. <a href="https://nroduit.github.io/en/">Weasis</a> : Visor médico de acceso libre.
 
 _NifTI_
-Existen multiples programas que permiten visualizar imagenes NIFTI, algunos de ellos estan para MATLAB, Python o pueden funcionar de manera independiente.
+Existen multiples programas que permiten visualizar imágenes NIFTI, algunos de ellos estan para MATLAB, Python o pueden funcionar de manera independiente.
 
 1. <a href="http://www.itksnap.org/pmwiki/pmwiki.php">ITK-Snap</a> : Visualiza imágenes en diferentes formatos, tanto NIFTI como otras un poco mas antiguas como HDR/IMG, y formatos VTK. Una de sus principales ventajas es la posibilidad de sobreponer máscaras, asi como también realizar segmentaciones de regiones de manera manual o semiautomática.
 2. <a href="https://www.mccauslandcenter.sc.edu/mricrogl/">MRIcroGL</a> : Similar al anterior pero enfocado en renderización (3D), también permite sobreponer máscaras y realizar segmentaciones de manera manual.
-3. <a href="http://ric.uthscsa.edu/mango/papaya.html">Papaya</a> :
+3. <a href="http://ric.uthscsa.edu/mango/papaya.html">Papaya</a> : Se trata de un visor basado en JavaScript que permite convertir a otros formatos e incluye algunas formas de preanálisis básicas como segmentación de cráneo.
+
+## Tutorial: Convertir una imagen DICOM a NIFTI
+
+
 
 
 

@@ -57,9 +57,7 @@ Existen multiples programas que permiten visualizar imágenes NIFTI, algunos de 
 ## Tutorial: Convertir una imagen DICOM a NIFTI
 
 
-Example:     youtubeId: lDi9uFcD7XI
-
-{% include youtubePlayer.html id=page.youtubeId %}
+{% include youtubePlayer.html id="lDi9uFcD7XI" %}
 
 > This is a blockquote following a header.
 >

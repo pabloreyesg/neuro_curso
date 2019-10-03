@@ -5,7 +5,8 @@ vimeoId: putYourIDHere
 ---
 
 # Curso de Neuroimágenes de SLAN 2019
-**Pablo A. Reyes** reyes.p @ javeriana.edu.co (sin espacios)
+**Pablo A. Reyes**
+mail: reyes.p @ javeriana.edu.co (sin espacios)
 
 
 La siguiente página ofrece las herramientas y ejemplos básicos para poder realizar una introducción a la visualización, análisis y procesamiento básico de imágenes cerebrales obtenidas por MRI. Cabe anotar que esta es una selección puntual de alguos programas que me han servido en mi experiencia. Existen una basta cantidad de opciones que dependen en gran parte del nivel y experiencia del usuario.
@@ -54,11 +55,42 @@ Existen multiples programas que permiten visualizar imágenes NIFTI, algunos de 
 2. <a href="https://www.mccauslandcenter.sc.edu/mricrogl/">MRIcroGL</a> : Similar al anterior pero enfocado en renderización (3D), también permite sobreponer máscaras y realizar segmentaciones de manera manual.
 3. <a href="http://ric.uthscsa.edu/mango/papaya.html">Papaya</a> : Se trata de un visor basado en JavaScript que permite convertir a otros formatos e incluye algunas formas de preanálisis básicas como segmentación de cráneo.
 
-## Tutorial: Convertir una imagen DICOM a NIFTI
+## Tutorial 1: Convertir una imagen DICOM a NIFTI
 
 Uso de DCM2NII tambien conocido como dicom to nii. Para este ejercicio es necesario descargar el archivo del tutorial e instalar en el computador el programa dcm2nii. Existen versiones modernas como dcm2niix que son igualmente buenas y confiables.
 
 {% include youtubePlayer.html id="F_cskbDONr0" %}
+
+**Convertidores**
+1. <a href="https://people.cas.sc.edu/rorden/mricron/dcm2nii.html">dcm2nii< /a> Originalmente se intala con MRICro
+2. <a href="https://www.nitrc.org/projects/mricrogl/">MRIcroGL</a>: Sucesor de dcm2nii e introduce una opción para formato BIDS
+3. <a href="https://lcni.uoregon.edu/downloads/mriconvert/mriconvert-and-mcverter">MRIConvert< /a>
+4. <a href="https://github.com/nipy/heudiconv">Heudiconv< /a>: Dirigido a conversión en formato BIDS
+
+## Análisis de Neuroimágenes
+El análisis de neuroimágenes conlleva al menos tres pasos: 1) preprocesamiento, 2) procesamiento, 3) análisis estadístico. Según el tipo de imagen y software seleccionado se pueden plantear pasos adicionales.
+
+**Principales paquetes de análisis**
+
+| Software        | Estructural          | Funcional |  Difusión |
+|:-------------|:------------------|:------|:--------- |
+| FSL           | SI | SI  | SI |
+| SPM | SI   | SI  | SI |
+| ok           | good `oreos`      | hmm   | |
+| ok           | good `zoute` drop | yumm  | |
+
+
+
+1. FSL
+2. SPM
+3. AFNI
+4. Freesurfer
+5. ANTs
+
+
+
+_Imágenes estructurales_
+Los tipos de análisis sobre imágenes estructurales dependen del objetivo del estudio.
 
 > This is a blockquote following a header.
 >

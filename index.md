@@ -62,22 +62,26 @@ Uso de DCM2NII tambien conocido como dicom to nii. Para este ejercicio es necesa
 {% include youtubePlayer.html id="F_cskbDONr0" %}
 
 **Convertidores**
-1. <a href="https://people.cas.sc.edu/rorden/mricron/dcm2nii.html">dcm2nii< /a> Originalmente se intala con MRICro
+1. <a href="https://people.cas.sc.edu/rorden/mricron/dcm2nii.html">dcm2nii</a> Originalmente se intala con MRICro
 2. <a href="https://www.nitrc.org/projects/mricrogl/">MRIcroGL</a>: Sucesor de dcm2nii e introduce una opción para formato BIDS
-3. <a href="https://lcni.uoregon.edu/downloads/mriconvert/mriconvert-and-mcverter">MRIConvert< /a>
-4. <a href="https://github.com/nipy/heudiconv">Heudiconv< /a>: Dirigido a conversión en formato BIDS
+3. <a href="https://lcni.uoregon.edu/downloads/mriconvert/mriconvert-and-mcverter">MRIConvert</a>
+4. <a href="https://github.com/nipy/heudiconv">Heudiconv</a>: Dirigido a conversión en formato BIDS
 
 ## Análisis de Neuroimágenes
 El análisis de neuroimágenes conlleva al menos tres pasos: 1) preprocesamiento, 2) procesamiento, 3) análisis estadístico. Según el tipo de imagen y software seleccionado se pueden plantear pasos adicionales.
 
 **Principales paquetes de análisis**
 
-| Software        | Estructural          | Funcional |  Difusión |
-|:-------------|:------------------|:------|:--------- |
-| FSL           | SI | SI  | SI |
-| SPM | SI   | SI  | SI |
-| ok           | good `oreos`      | hmm   | |
-| ok           | good `zoute` drop | yumm  | |
+| Software        | Estructural          | Funcional |  Difusión |  OS|
+|:-------------|:------------------|:------|:--------- |:---|
+| FSL           | SI | SI  | SI | Mac, Linux|
+| SPM | SI   | SI  | SI | Matlab |
+| AFNI           | NO      | SI  |NO | Mac,Linux|
+| Freesurfer   | SI | SI  | SI | Mac, Linux |
+| ANTs | SI | SI | SI | Mac, Linux |
+| CAMINO | NO | NO | SI | Linux |
+| TrackVis |  NO | NO | SI | Linux |
+| MRtrix |  NO | NO | SI | Linux, R |
 
 
 

@@ -61,6 +61,9 @@ Uso de DCM2NII tambien conocido como dicom to nii. Para este ejercicio es necesa
 
 {% include youtubePlayer.html id="F_cskbDONr0" %}
 
+{% include youtubePlayer.html id="UlPMdeaY9wY" %}
+
+
 **Convertidores**
 1. <a href="https://people.cas.sc.edu/rorden/mricron/dcm2nii.html">dcm2nii</a> Originalmente se intala con MRICro
 2. <a href="https://www.nitrc.org/projects/mricrogl/">MRIcroGL</a>: Sucesor de dcm2nii e introduce una opción para formato BIDS

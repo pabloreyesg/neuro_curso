@@ -70,6 +70,20 @@ Uso de DCM2NII tambien conocido como dicom to nii. Para este ejercicio es necesa
 ## Análisis de Neuroimágenes
 El análisis de neuroimágenes conlleva al menos tres pasos: 1) preprocesamiento, 2) procesamiento, 3) análisis estadístico. Según el tipo de imagen y software seleccionado se pueden plantear pasos adicionales.
 
+_Imágenes estructurales_
+Los tipos de análisis sobre imágenes estructurales dependen del objetivo del estudio.
+
+**T1 y T2**
+1. Segmentación (delimitar una región)
+2. Estimación de grosor cortical
+3. Comparación de grupos
+4. Comparación de casos vs grupo
+
+Tutorial de segmentación manual
+
+
+
+
 **Principales paquetes de análisis**
 
 | Software        | Estructural          | Funcional |  Difusión |  OS|
@@ -82,19 +96,6 @@ El análisis de neuroimágenes conlleva al menos tres pasos: 1) preprocesamiento
 | CAMINO | NO | NO | SI | Linux |
 | TrackVis |  NO | NO | SI | Linux |
 | MRtrix |  NO | NO | SI | Linux, R |
-
-
-
-1. FSL
-2. SPM
-3. AFNI
-4. Freesurfer
-5. ANTs
-
-
-
-_Imágenes estructurales_
-Los tipos de análisis sobre imágenes estructurales dependen del objetivo del estudio.
 
 > This is a blockquote following a header.
 >

@@ -59,16 +59,20 @@ Existen multiples programas que permiten visualizar imágenes NIFTI, algunos de 
 
 Uso de DCM2NII tambien conocido como dicom to nii. Para este ejercicio es necesario descargar el archivo del tutorial e instalar en el computador el programa dcm2nii. Existen versiones modernas como dcm2niix que son igualmente buenas y confiables.
 
-{% include youtubePlayer.html id="F_cskbDONr0" %}
-
-{% include youtubePlayer.html id="UlPMdeaY9wY" %}
-
-
 **Convertidores**
 1. <a href="https://people.cas.sc.edu/rorden/mricron/dcm2nii.html">dcm2nii</a> Originalmente se intala con MRICro
 2. <a href="https://www.nitrc.org/projects/mricrogl/">MRIcroGL</a>: Sucesor de dcm2nii e introduce una opción para formato BIDS
 3. <a href="https://lcni.uoregon.edu/downloads/mriconvert/mriconvert-and-mcverter">MRIConvert</a>
 4. <a href="https://github.com/nipy/heudiconv">Heudiconv</a>: Dirigido a conversión en formato BIDS
+
+**DCM2NII**
+{% include youtubePlayer.html id="F_cskbDONr0" %}
+
+**DCM2NIIX**
+{% include youtubePlayer.html id="UlPMdeaY9wY" %}
+
+
+
 
 ## Análisis de Neuroimágenes
 El análisis de neuroimágenes conlleva al menos tres pasos: 1) preprocesamiento, 2) procesamiento, 3) análisis estadístico. Según el tipo de imagen y software seleccionado se pueden plantear pasos adicionales.

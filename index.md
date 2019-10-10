@@ -72,8 +72,6 @@ Uso de DCM2NII tambien conocido como dicom to nii. Para este ejercicio es necesa
 {% include youtubePlayer.html id="UlPMdeaY9wY" %}
 
 
-
-
 ## Análisis de Neuroimágenes
 El análisis de neuroimágenes conlleva al menos tres pasos: 1) preprocesamiento, 2) procesamiento, 3) análisis estadístico. Según el tipo de imagen y software seleccionado se pueden plantear pasos adicionales.
 
